@@ -7,16 +7,17 @@ Thanks for taking the time to look at this code test project. This project imple
 
 Please attempt one or more of the following improvement tasks on this project, and then either make a PR for review or submit a zip of the project.
 
-**Time box yourself to 1 to 2 hours of work.**
+**Time box yourself to 2 to 4 hours of work.**
 
-We realise your time is valuable and don't need to see all these issues resolved. Pick a task or area that you excel or are passionate about. Complete as much as you can in the time you choose. We'll review your code in the technical interview, discuss choices you made and anything you'd like to improve if you had the time.
+We realise your time is valuable and don't need to see all these issues resolved. Pick a task or area that you excel or are passionate about. Complete as much as you can in the time you choose, but don't overstretch yourself. We'll review your code in the technical interview, discuss choices you made and anything you'd like to improve if you had the time.
 
 ### Suggested Tasks
 
 Use one of our suggested tasks or complete your own improvement to the project if you see something we haven't listed.
 
 - Add some styling and branding to improve the look and feel:
-    - Use the Alinta homepage (https://www.alintaenergy.com.au/vic/) as a resource and reference.
+    - Use the Alinta homepage (https://www.alintaenergy.com.au/vic/) as a resource and reference, but don't feel you have to reproduce this style exactly - take as much or as little as you want.
+    - You can add a 3rd party UI library, or style from scratch if you prefer.
 - The Add Customer form takes up a lot of space - on smaller viewports the user needs to scroll down to see the customer list, and some users may only want to read the list and not use the form. Find a simple solution.
 - Add a birthday field:
     - Consider how to make this intuitive and easy to use.
