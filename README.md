@@ -5,7 +5,7 @@ Thanks for taking the time to look at this code test project. This project imple
 
 ## Tasks
 
-Please attempt one or more of the following improvement tasks on this project, and then either make a PR for review or submit a zip of the project.
+Please attempt one or more of the following improvement tasks on this project, and upload to your own online repository (e.g. GitHub)
 
 **Time box yourself to 2 to 4 hours of work.**
 
@@ -17,16 +17,19 @@ Use one of our suggested tasks or complete your own improvement to the project i
 
 - Add some styling and branding to improve the look and feel:
     - Use the Alinta homepage (https://www.alintaenergy.com.au/vic/) as a resource and reference, but don't feel you have to reproduce this style exactly - take as much or as little as you want.
-    - You can add a 3rd party UI library, or style from scratch if you prefer.
+    - You can add a 3rd party UI library, but make sure you show off your CSS and design skills.
 - The Add Customer form takes up a lot of space - on smaller viewports the user needs to scroll down to see the customer list, and some users may only want to read the list and not use the form. Find a simple solution.
+- Allow the user to edit customer info.
 - Add a birthday field:
     - Consider how to make this intuitive and easy to use.
-    - Add a constraint to ensure users are 18+ years old. Make sure this requirement is communicated to the user.
+    - Add a constraint to ensure users are 18+ years old.
+    Consider how to communicate this requirements to the user.
     - Consider how the date value will be stored, both locally and in the backend.
 - Add validation to the form:
     - First name and last name should be mandatory.
     - The phone number should be a valid Australian number.
     - Prevent users from entering users with the same first and last name.
+    - Consider how to communicate these requirements to the user.
 - Convert the customer list to a table format (e.g. using CSS grid), with a column for each value:
     - Consider how this will appear on different viewport sizes and zoom levels.
 - Add search and sorting. As the list grows, users want to be able to search by name or phone number.
