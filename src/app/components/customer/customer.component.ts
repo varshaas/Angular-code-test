@@ -11,5 +11,8 @@ export class CustomerComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  public navigateToSection(section:any) {
+      const elmnt = document.getElementById(section);
+      if(elmnt) elmnt.scrollIntoView({ behavior: "smooth" });
+}
 }

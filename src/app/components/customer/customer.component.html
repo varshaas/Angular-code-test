@@ -1,7 +1,18 @@
 <section>
-  <header>
-    <h2>Customer Management</h2>
+  <header class="bg-yellow"> 
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="banner-title">Customer Management</h1>
+          <p class="banner-desc">A great place to add and view customers</p>
+          <button type="button" class="btn btn-primary btn-lg banner-btn-mr" fragment="add-customer" (click)="navigateToSection('add-customer')">Add A Customer</button>
+          <button type="button" class="btn btn-primary btn-lg"fragment="customer-list" (click)="navigateToSection('customer-list')">View Customers</button>
+        </div>
+      </div>
+    </div>
+    <div class="svg-border-angled text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" fill="currentColor"><polygon points="0,100 100,0 100,100"></polygon></svg></div>
   </header>
-  <app-add-customer></app-add-customer>
-  <app-customer-list></app-customer-list>
+  
+  <div id="add-customer" class="pt-70"><app-add-customer></app-add-customer></div>
+  <div id="customer-list"><app-customer-list></app-customer-list></div>
 </section>

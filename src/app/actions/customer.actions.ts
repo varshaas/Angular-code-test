@@ -10,3 +10,8 @@ export const deleteCustomer = createAction(
   '[Customer] deleteCustomer',
   props<{ id: string }>()
 );
+
+export const editCustomer = createAction(
+  '[Customer] editCustomer',
+  props<{ customer: Customer, id: string }>()
+);

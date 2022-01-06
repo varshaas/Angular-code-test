@@ -31,6 +31,16 @@ const customerReducer = createReducer(
       ...state,
       customers: state.customers.filter((customer) => customer.id !== id),
     };
+  }),
+
+  on(CustomerActions.editCustomer, (state, { customer, id }) => {
+    const editedCustomerArray = [...state.customers];
+    const cust = editedCustomerArray.findIndex((customer) => customer.id === id);
+    editedCustomerArray[cust] = { ...customer, id };
+    return {
+      ...state,
+      customers: editedCustomerArray,
+    };
   })
 );
 

@@ -12,9 +12,10 @@ import { AppComponent } from './app.component';
 import { CustomerComponent } from './components/customer/customer.component';
 import { CustomerListComponent } from './components/customer-list/customer-list.component';
 import { AddCustomerComponent } from './components/add-customer/add-customer.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
-  declarations: [AppComponent, CustomerComponent, CustomerListComponent, AddCustomerComponent],
+  declarations: [AppComponent, CustomerComponent, CustomerListComponent, AddCustomerComponent, HeaderComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
